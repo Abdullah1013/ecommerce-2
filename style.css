@@ -1,0 +1,119 @@
+.Heading{
+font-size:20px;
+background-color: aqua;
+display: inline-block; 
+
+}
+.Headingdiv{
+    text-align: center;
+    margin-top: 2%;
+}
+
+ .nav-item{
+    padding-left: 20px;
+} 
+
+/* .background{
+    background-image: url('images/new-arrival-background.png') ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+    display: flex;
+} */
+
+.background {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    flex-wrap: wrap; /* Wrap items if they don't fit in one line */
+    padding: 20px; /* Optional: Add some padding around the content */
+  }
+  
+  .background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/backimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1; /* Ensures the background stays behind other content */
+  }
+  .background .card {
+    margin-left: 5%;
+    margin-right: 5%; /* Add margin to create space between the elements */
+    z-index: 1; /* Ensure the card is above the background image */
+  }
+    
+
+.card{
+    height: 25rem;
+    
+}
+.card img{
+    height: 50%;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+    border-radius: 50%; /* Rounded buttons */
+  }
+  
+  #carouselExampleIndicators{
+    width: 50%;
+    height: 50%;
+  }
+
+  #carouselExampleFade{
+    width: 50%;
+    height: 50%;
+    display: flex;
+
+  }
+  .carousel{
+    display: flex;
+  }
+
+  .footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    color: white;
+    display: flex;
+    
+  }
+
+  .footinfo{
+    display: inline;
+    margin-top: 7%;
+    margin-left: 20%;
+  }
+  .box1{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+  }
+  .box2{
+    margin-top: 10%;
+    margin-left: 100px;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+  }
+
+  
+
+  
+
