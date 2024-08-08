@@ -1,0 +1,19 @@
+body{
+    background-image: url('../ecommerce-2/images/backimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d1 {
+    border: 2px solid ;
+    border-color: rgb(266, 266, 266);
+font-size: 200%;
+    color:aliceblue;
+    padding: 10px;
+   margin-top: 3%;
+   margin-left: 3%;
+    width: 18%;
+    text-align: center;
+    font-family: cursive;
+}
+
