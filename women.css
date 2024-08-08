@@ -17,3 +17,22 @@ font-size: 200%;
     font-family: cursive;
 }
 
+.d2{
+    
+        background-image: url('../ecommerce-2/images/backimage.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:250px;
+        width: auto;
+    
+
+}
+.d2 img {
+    width: 200px; 
+    height: auto;
+    margin: 10px;
+    border: 2px solid white;
+}
